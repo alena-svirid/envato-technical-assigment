@@ -1,0 +1,27 @@
+// mixins
+@mixin make-image-responsive() {
+    display: block;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@mixin clearfix() {
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+@mixin mq($width, $type: min) {
+    @if map_has_key($breakpoints, $width) {
+        $width: map_get($breakpoints, $width);
+        @if $type == max {
+            $width: $width - 1px;
+        }
+        @media only screen and (#{$type}-width: $width) {
+            @content;
+        }
+    }
+}

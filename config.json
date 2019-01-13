@@ -1,0 +1,21 @@
+{
+  "project": "test",
+  "configBundle": {
+    "parentTaskName": "bundle",
+    "concat": {
+      "active": true,
+      "config": {}
+    },
+    "uglify": {
+      "active": false,
+      "config": {}
+    },
+    "destinationFolder": "dist",
+    "files": {
+      "scripts/script.js": [
+        "src/modules/counter/scripts/script.js",
+        "src/scripts/main.js"
+      ]
+    }
+  }
+}

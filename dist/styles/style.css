@@ -1,0 +1,341 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font: 300 14px "Roboto", sans-serif;
+  color: #242424;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.page_container {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+
+.home-screen {
+  margin-bottom: 140px;
+}
+
+.home-screen_wrapper {
+  background: url(../images/bg_home.png) no-repeat 0/cover;
+  min-height: 830px;
+}
+
+.home-screen_event {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 50px;
+}
+
+.home-screen_form {
+  position: relative;
+  width: 35%;
+  padding: 34px 30px 15px;
+  margin: -160px 0 0 70px;
+  border: solid 1px #bebebe;
+  text-align: center;
+  background-color: #fff;
+}
+
+.home-screen_form:after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-bottom: solid 1px #6c6c6c;
+}
+
+.home-screen_text {
+  width: 60%;
+  margin-top: 75px;
+}
+
+.home-screen_title {
+  font-weight: 900;
+  font-size: 50px;
+  margin-bottom: 28px;
+}
+
+.home-screen_description:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.home-screen_form-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.home-screen_counter {
+  padding-bottom: 115px;
+  text-align: center;
+}
+
+.header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 45px 0 115px;
+}
+
+.header_nav {
+  padding-left: 30px;
+}
+
+.nav {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav_item:not(:first-child) {
+  padding-left: 40px;
+}
+
+.nav_link {
+  font-weight: 100;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.form_field {
+  margin-bottom: 18px;
+}
+
+.form_input {
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  border: solid 1px #bebebe;
+  border-radius: 5px;
+  color: #6c6c6c;
+  font-size: 19px;
+  outline: none;
+}
+
+.form_input:focus {
+  border-color: #90d23d;
+}
+
+.form_input::-webkit-input-placeholder {
+  color: #bebebe;
+}
+
+.form_input::-moz-placeholder {
+  color: #bebebe;
+}
+
+.form_input:-ms-input-placeholder {
+  color: #bebebe;
+}
+
+.form_input::placeholder {
+  color: #bebebe;
+}
+
+.form_button {
+  width: 100%;
+  background-color: #90d23d;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form_message-text {
+  color: #6c6c6c;
+  font-size: 15px;
+}
+
+.counter {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border: solid 2px #90d23d;
+  border-radius: 25px;
+  padding: 30px 30px;
+  color: #fff;
+}
+
+.counter_col {
+  position: relative;
+  width: 225px;
+  padding: 0 45px;
+}
+
+.counter_col::after {
+  content: ":";
+  font: 100 130px/100px "Roboto Slab", sans-serif;
+  position: absolute;
+  right: -5px;
+  top: -12px;
+  color: #fff;
+}
+
+.counter_col:last-child::after {
+  display: none;
+}
+
+.counter_digit {
+  font: 100 130px/100px "Roboto Slab", sans-serif;
+}
+
+.counter_label {
+  font: 400 25px "Roboto Slab", sans-serif;
+  text-transform: uppercase;
+  margin-top: 25px;
+  text-align: center;
+}

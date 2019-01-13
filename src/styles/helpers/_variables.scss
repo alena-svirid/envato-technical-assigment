@@ -1,0 +1,13 @@
+// variables
+$breakpoints: (
+    'phone-wide': 30em, // 480px
+    'tablet-short': 40em, //640px
+    'tablet': 48em, // 768px
+    'tablet-wide': 64.063em, // 1025px
+    'lap-wide': 64em, // 1024px
+    'desktop': 78.125em, // 1250px
+    'desktop-wide': 100em // 1600px
+);
+
+$font-stack-default: 'Roboto', sans-serif;
+$font-stack-secondary: 'Roboto Slab', sans-serif;

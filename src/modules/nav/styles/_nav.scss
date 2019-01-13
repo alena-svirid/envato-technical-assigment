@@ -1,0 +1,13 @@
+.nav {
+    display: flex;
+
+    &_item:not(:first-child) {
+        padding-left: 40px;
+    }
+    &_link {
+        font-weight: 100;
+        font-size: 15px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,61 @@
+{
+  "xml": false,
+  "common": {
+    "favicon": "content/favicon.ico"
+  },
+  "head": {
+    "title": "envato",
+    "description": "envato",
+    "keywords": "envato"
+  },
+  "home": {
+    "title": "Welcome!",
+    "description_text1": "The biggest envato community meetup in Bangladesh is happening right now! And you can be a part of it too...",
+    "description_text2": "Get together with members of the Envato community to talk shop, trade war stories, make new friends and see the faces behind the avatars. Whether you’re an author on Envato Market, a client on Envato Studio, or a learner on Tuts+, you are invited!",
+    "description_text3": "It doesn’t matter as long as you have the motivation and interest to work at the envato and bring cookies to our event. Just kidding, but we don’t mind having more cookies!Head over and fill up the sign up form here so that we can keep track of our guests. Don’t forget to register on our nvite page here too!",
+    "form_title": "Sign up for our event"
+  },
+  "logo": {
+    "link": "#",
+    "img_src": "content/logo_envato.png",
+    "img_alt": "envato logo"
+  },
+  "counter": {
+    "label_days": "days",
+    "label_hours": "hours",
+    "label_min": "minutes",
+    "label_sec": "seconds",
+    "deadline": "March 25 2019 23:59:59 GMT+0300"
+  },
+  "form": {
+    "input_placeholder1": "Enter your name",
+    "input_placeholder2": "Enter your email",
+    "input_placeholder3": "Phone number",
+    "input_placeholder4": "Envato Username",
+    "button_text": "Let me in!",
+    "text_message1": "Hurry up, Limited seats availble",
+    "text_message2": "*we will never spam your email"
+  },
+  "nav": [
+    {
+      "url":"#",
+      "text":"Event Details"
+    },
+    {
+      "url":"#",
+      "text":"Speakers"
+    },
+    {
+      "url":"#",
+      "text":"Sponsors"
+    },
+    {
+      "url":"#",
+      "text":"Past Events"
+    },
+    {
+      "url":"#",
+      "text":"Contact"
+    }
+  ]
+}

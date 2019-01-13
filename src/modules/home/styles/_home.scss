@@ -1,0 +1,51 @@
+.home-screen {
+    margin-bottom: 140px;
+
+    &_wrapper {
+        background: url(../images/bg_home.png) no-repeat 0 / cover;
+        min-height: 830px;
+    }
+    &_event {
+        display: flex;
+        padding: 0 50px;
+    }
+    &_form {
+        position: relative;
+        width: 35%;
+        padding: 34px 30px 15px;
+        margin: -160px 0 0 70px;
+        border: solid 1px #bebebe;
+        text-align: center;
+        background-color: #fff;
+
+        &:after {
+            content: '';
+            width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            border-bottom: solid 1px #6c6c6c;
+        }
+    }
+    &_text {
+        width: 60%;
+        margin-top: 75px;
+    }
+    &_title {
+        font-weight: 900;
+        font-size: 50px;
+        margin-bottom: 28px;
+    }
+    &_description:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    &_form-title {
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    &_counter {
+        padding-bottom: 115px;
+        text-align: center;
+    }
+}

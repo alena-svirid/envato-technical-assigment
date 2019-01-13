@@ -1,0 +1,38 @@
+.counter {
+    $color-counter: #fff;
+    $font-counter: 100 130px/100px $font-stack-secondary;
+
+    display: inline-flex;
+    border: solid 2px #90d23d;
+    border-radius: 25px;
+    padding: 30px 30px;
+    color: $color-counter;
+
+    &_col {
+        position: relative;
+        width: 225px;
+        padding: 0 45px;
+
+        &::after {
+            content: ":";
+            font: $font-counter;
+            position: absolute;
+            right: -5px;
+            top: -12px;
+            color: $color-counter;
+        }
+        &:last-child::after {
+            display: none;
+        }
+    }
+    &_digit {
+        font: $font-counter;
+    }
+
+    &_label {
+        font: 400 25px $font-stack-secondary;
+        text-transform: uppercase;
+        margin-top: 25px;
+        text-align: center;
+    }
+}
